@@ -1,0 +1,13 @@
+Here's an example of how to create a database and table for a simple todo list program with the columns you described:
+
+```
+CREATE DATABASE todo_list;
+
+USE todo_list;
+
+CREATE TABLE tasks (
+  task_id INT PRIMARY KEY,
+  task_name VARCHAR(255),
+  description VARCHAR(255),
+  is_completed BOOLEAN
+);
